@@ -1,0 +1,962 @@
+﻿Log file open, 02/01/19 12:04:08
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Group1
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.322639
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.274s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.01-12.04.09:588][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.01-12.04.09:588][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.01-12.04.09:626][  0]LogHAL: Display: Platform has ~ 32 GB [34272002048 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.01-12.04.09:626][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.01-12.04.09:626][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.01-12.04.09:627][  0]LogInit: Computer: A013-32
+[2019.02.01-12.04.09:627][  0]LogInit: User: g015582f
+[2019.02.01-12.04.09:627][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.01-12.04.09:627][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2019.02.01-12.04.09:628][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.02.01-12.04.09:628][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.01-12.04.09:628][  0]LogMemory: Process Physical Memory: 100.10 MB used, 100.10 MB peak
+[2019.02.01-12.04.09:628][  0]LogMemory: Process Virtual Memory: 89.23 MB used, 89.23 MB peak
+[2019.02.01-12.04.09:628][  0]LogMemory: Physical Memory: 5126.86 MB used,  27557.47 MB free, 32684.33 MB total
+[2019.02.01-12.04.09:628][  0]LogMemory: Virtual Memory: 4638.79 MB used,  27557.47 MB free, 134217728.00 MB total
+[2019.02.01-12.04.09:683][  0]LogInit: Using OS detected language (en-US).
+[2019.02.01-12.04.09:683][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.01-12.04.09:685][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.01-12.04.10:083][  0]LogStreaming: Display: Took  0.400s to InitEngineTextLocalization.
+[2019.02.01-12.04.10:084][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.01-12.04.10:152][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.01-12.04.10:152][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.01-12.04.10:497][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.01-12.04.10:497][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.01-12.04.10:581][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.02.01-12.04.10:581][  0]LogD3D11RHI:       8145/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.01-12.04.10:585][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.01-12.04.10:585][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.01-12.04.10:585][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.01-12.04.10:596][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.01-12.04.10:596][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.01-12.04.10:596][  0]LogWindows: EnumDisplayDevices:
+[2019.02.01-12.04.10:596][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.02.01-12.04.10:597][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.02.01-12.04.10:597][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.01-12.04.10:598][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.02.01-12.04.10:598][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.01-12.04.10:598][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.02.01-12.04.10:598][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2019.02.01-12.04.10:598][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2019.02.01-12.04.10:598][  0]LogRHI: Texture pool is 5702 MB (70% of 8145 MB)
+[2019.02.01-12.04.10:629][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.01-12.04.10:643][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.01-12.04.10:735][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Intermediate/Shaders/WorkingDirectory/9200/).
+[2019.02.01-12.04.10:736][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/g015582f.STUDENT/AppData/Local/Temp/UnrealShaderWorkingDir/B91ACDAC4A51CDA90B9BA9B66258F89C/'.
+[2019.02.01-12.04.11:219][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.01-12.04.11:236][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.01-12.04.11:273][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.01-12.04.11:293][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.01-12.04.11:311][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.01-12.04.11:328][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.01-12.04.11:345][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.01-12.04.11:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.01-12.04.11:372][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.01-12.04.11:466][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.01-12.04.11:556][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.01-12.04.11:556][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.01-12.04.11:632][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.01-12.04.11:632][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.01-12.04.11:650][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.01-12.04.11:667][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.01-12.04.11:682][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.01-12.04.11:699][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.01-12.04.11:710][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.01-12.04.11:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.01-12.04.11:869][  0]LogXGEController: Cleaning working directory: C:/Users/g015582f.STUDENT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.01-12.04.11:870][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.01-12.04.11:870][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.01-12.04.11:870][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.01-12.04.12:979][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.01-12.04.13:494][  0]LogDerivedDataCache: Loaded boot cache 0.51s 87MB C:/Users/g015582f.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.01-12.04.13:496][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/g015582f.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.01-12.04.13:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.01-12.04.13:496][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.01-12.04.13:496][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.01-12.04.13:496][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.01-12.04.13:509][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.01-12.04.13:522][  0]LogDerivedDataCache: Using Local data cache path C:/Users/g015582f.STUDENT/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.01-12.04.13:522][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.01-12.04.13:522][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.01-12.04.13:541][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.01-12.04.13:543][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.01-12.04.13:544][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.01-12.04.13:628][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2019.02.01-12.04.14:042][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.01-12.04.14:204][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.01-12.04.14:210][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.01-12.04.14:210][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.01-12.04.14:210][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.01-12.04.14:210][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.01-12.04.14:234][  0]LogNetVersion: Group1 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 381302111)
+[2019.02.01-12.04.14:854][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.136151 seconds
+[2019.02.01-12.04.14:861][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.01-12.04.14:861][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.01-12.04.14:861][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.01-12.04.15:914][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.01-12.04.15:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.01-12.04.16:144][  0]SourceControl: Source control is disabled
+[2019.02.01-12.04.16:144][  0]SourceControl: Source control is disabled
+[2019.02.01-12.04.16:147][  0]SourceControl: Source control is disabled
+[2019.02.01-12.04.16:148][  0]SourceControl: Source control is disabled
+[2019.02.01-12.04.16:366][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.01-12.04.16:446][  0]LogOcInput: OculusInput pre-init called
+[2019.02.01-12.04.16:522][  0]LogEngine: Initializing Engine...
+[2019.02.01-12.04.16:522][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.01-12.04.16:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-12.04.16:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-12.04.16:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.01-12.04.16:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-12.04.16:779][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.01-12.04.16:803][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.01-12.04.16:819][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.04.16:899][  0]LogInit: FAudioDevice initialized.
+[2019.02.01-12.04.16:899][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.01-12.04.17:001][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/g015582f.STUDENT/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.01-12.04.17:008][  0]LogInit: Texture streaming: Enabled
+[2019.02.01-12.04.17:037][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.01-12.04.17:061][  0]LogInit: Transaction tracking system initialized
+[2019.02.01-12.04.17:110][  0]BlueprintLog: New page: Editor Load
+[2019.02.01-12.04.17:270][  0]LocalizationService: Localization service is disabled
+[2019.02.01-12.04.17:732][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.01-12.04.17:732][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.01-12.04.17:732][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.01-12.04.17:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.01-12.04.17:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.01-12.04.17:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.01-12.04.17:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.01-12.04.17:916][  0]LogFileCache: Scanning file cache for directory 'C:/Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/' took 0.01s
+[2019.02.01-12.04.17:916][  0]SourceControl: Source control is disabled
+[2019.02.01-12.04.17:916][  0]Cmd: MAP LOAD FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Levels/DevTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.01-12.04.17:917][  0]LightingResults: New page: Lighting Build
+[2019.02.01-12.04.17:922][  0]MapCheck: New page: Map Check
+[2019.02.01-12.04.17:922][  0]LightingResults: New page: Lighting Build
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: 50 (AutoDXT, 1920X1080)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: 25 (AutoDXT, 1920X1080)
+[2019.02.01-12.04.20:840][  0]LogTexture: Display: Building textures: 100 (AutoDXT, 1920X1080)
+[2019.02.01-12.04.21:001][  0]LogAIModule: Creating AISystem for world DevTest
+[2019.02.01-12.04.21:007][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.01-12.04.21:034][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.01-12.04.21:232][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 197.257ms to complete.
+[2019.02.01-12.04.21:232][  0]LogFileHelpers: Loading map 'DevTest' took 3.315
+[2019.02.01-12.04.21:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.21:334][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.21:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.21:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.21:360][  0]LogCollectionManager: Loaded 0 collections in 0.004433 seconds
+[2019.02.01-12.04.21:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Collections/' took 0.01s
+[2019.02.01-12.04.21:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Developers/g015582f/Collections/' took 0.01s
+[2019.02.01-12.04.21:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Collections/' took 0.01s
+[2019.02.01-12.04.21:423][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.01-12.04.21:442][  0]LogContentBrowser: Native class hierarchy populated in 0.0188 seconds. Added 2572 classes and 603 folders.
+[2019.02.01-12.04.21:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.04.21:587][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.04.21:596][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.01-12.04.21:622][  0]LogSlate: Took 0.000585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.01-12.04.21:626][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.01-12.04.21:632][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.01-12.04.21:767][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.01-12.04.21:838][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.01-12.04.21:934][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.01-12.04.21:934][  0]LogLoad: (Engine Initialization) Total time: 16.33 seconds
+[2019.02.01-12.04.21:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.01-12.04.21:993][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.01-12.04.22:246][  1]LogAssetRegistry: Asset discovery search completed in 8.6418 seconds
+[2019.02.01-12.04.22:248][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.01-12.04.22:248][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.02.01-12.04.36:813][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.04.36:879][514]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.04.36:887][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.04.36:887][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.04.36:899][514]PIE: New page: PIE session: DevTest (1 Feb 2019 12:04:36)
+[2019.02.01-12.04.36:899][514]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevTest
+[2019.02.01-12.04.36:904][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004400s)
+[2019.02.01-12.04.36:904][514]LogAIModule: Creating AISystem for world DevTest
+[2019.02.01-12.04.36:904][514]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2019.02.01-12.04.36:904][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevTest.DevTest to /Game/Levels/UEDPIE_0_DevTest.DevTest (0.005263s)
+[2019.02.01-12.04.36:931][514]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.04.36:945][514]LogInit: FAudioDevice initialized.
+[2019.02.01-12.04.36:988][514]LogLoad: Game class is 'GM_Test_C'
+[2019.02.01-12.04.36:991][514]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevTest.DevTest up for play (max tick rate 0) at 2019.02.01-12.04.36
+[2019.02.01-12.04.36:991][514]LogWorld: Bringing up level for play took: 0.001047
+[2019.02.01-12.04.37:013][514]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.02.01-12.04.37:017][514]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevTest -0.164
+[2019.02.01-12.04.37:018][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.04.46:015][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.04.46:015][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.46:052][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.04.46:052][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.04.46:092][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.04.46:114][586]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.01-12.04.49:643][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.04.56:483][781]LogTexture: Display: Building textures: wasd-png-3 (BGRA8, 288X187)
+[2019.02.01-12.04.56:483][781]LogTexture: Display: Building textures: game-38230_960_720 (BGRA8, 960X686)
+[2019.02.01-12.04.56:483][781]LogTexture: Display: Building textures: computer_key_Space_bar (BGRA8, 3300X527)
+[2019.02.01-12.04.56:483][781]LogTexture: Display: Building textures: New_Game_Back (BGRA8, 688X273)
+[2019.02.01-12.04.56:483][781]LogTexture: Display: Building textures: New_Game_Back_Glow (BGRA8, 688X273)
+[2019.02.01-12.04.56:485][781]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.01-12.04.56:558][781]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/MainMenuWidget.MainMenuWidget
+[2019.02.01-12.04.57:174][781]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.02.01-12.04.58:219][781]LogSlate: Took 0.010984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.01-12.05.01:275][894]LogSlate: Took 0.008831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.01-12.05.12:971][191]LogSlate: Window 'MainMenuWidget*' being destroyed
+[2019.02.01-12.05.12:973][191]LogSlate: Window 'MainMenuWidget*' being destroyed
+[2019.02.01-12.05.16:413][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.05.16:483][565]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget98C78E6646BE24E1E070D8B0E9F0EF74.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.05.23:276][352]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/OptionsWidget.OptionsWidget
+[2019.02.01-12.05.30:951][889]LogSlate: Window 'OptionsWidget*' being destroyed
+[2019.02.01-12.05.30:956][889]LogSlate: Window 'OptionsWidget*' being destroyed
+[2019.02.01-12.06.19:247][625]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Character/C_Character.C_Character
+[2019.02.01-12.06.30:553][794]LogSlate: Window 'C_Character' being destroyed
+[2019.02.01-12.07.42:786][703]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.07.42:815][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.07.42:815][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.07.42:815][703]PIE: New page: PIE session: DevTest (1 Feb 2019 12:07:42)
+[2019.02.01-12.07.42:815][703]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevTest
+[2019.02.01-12.07.42:820][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004742s)
+[2019.02.01-12.07.42:821][703]LogAIModule: Creating AISystem for world DevTest
+[2019.02.01-12.07.42:821][703]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2019.02.01-12.07.42:821][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevTest.DevTest to /Game/Levels/UEDPIE_0_DevTest.DevTest (0.006294s)
+[2019.02.01-12.07.42:873][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.07.42:887][703]LogInit: FAudioDevice initialized.
+[2019.02.01-12.07.42:921][703]LogLoad: Game class is 'GM_Test_C'
+[2019.02.01-12.07.42:923][703]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevTest.DevTest up for play (max tick rate 0) at 2019.02.01-12.07.42
+[2019.02.01-12.07.42:923][703]LogWorld: Bringing up level for play took: 0.000913
+[2019.02.01-12.07.42:939][703]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevTest -0.498
+[2019.02.01-12.07.42:939][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.08.12:492][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.08.12:492][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.08.12:527][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.08.12:528][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.08.12:576][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.08.12:601][236]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.01-12.08.28:410][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.01-12.08.29:870][443]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.01-12.09.36:561][430]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.11.03:393][657]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.01-12.13.24:670][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.01-12.15.01:107][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/DevTest' took 0.027
+[2019.02.01-12.15.01:111][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/OptionsWidget] ([1] browsable assets)...
+[2019.02.01-12.15.01:111][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/OptionsWidget]
+[2019.02.01-12.15.01:175][129]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/OptionsWidget_Auto137A8D81F4046AF1D19F91EBBD5DA806C.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Autosaves/Game/Blueprints/UI/OptionsWidget_Auto1.uasset'
+[2019.02.01-12.15.01:177][129]LogFileHelpers: Auto-saving content packages took 0.069
+[2019.02.01-12.17.02:162][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.17.08:287][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.17.23:072][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/OptionsWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsWidget.uasset" SILENT=true
+[2019.02.01-12.17.23:142][915]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/OptionsWidget7564C68F45AC0B1B27DDE5B926FC886A.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsWidget.uasset'
+[2019.02.01-12.17.24:473][ 52]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/MainMenuWidget.MainMenuWidget
+[2019.02.01-12.17.29:801][476]LogTexture: Display: Building textures: Option_Back_glow (BGRA8, 637X399)
+[2019.02.01-12.17.29:801][476]LogTexture: Display: Building textures: Option_Back (BGRA8, 637X399)
+[2019.02.01-12.17.29:805][476]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/OptionsButton.OptionsButton
+[2019.02.01-12.17.59:506][237]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.18.00:739][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.18.00:780][297]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetD9F8623743EDDCCC3F3A6D8F3430ABCC.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.18.02:306][457]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/OptionsButton.OptionsButton
+[2019.02.01-12.18.29:403][346]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.18.29:820][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.18.29:857][360]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget0CD53E264F852CA437EDCBBB4D16D1E1.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.18.32:621][521]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.18.33:037][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.18.33:075][541]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget010795BA46A43FB719CC8C844705394A.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.18.34:158][616]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.18.34:177][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.34:178][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.18.34:178][616]PIE: New page: PIE session: DevTest (1 Feb 2019 12:18:34)
+[2019.02.01-12.18.34:178][616]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevTest
+[2019.02.01-12.18.34:181][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002788s)
+[2019.02.01-12.18.34:181][616]LogAIModule: Creating AISystem for world DevTest
+[2019.02.01-12.18.34:181][616]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2019.02.01-12.18.34:181][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevTest.DevTest to /Game/Levels/UEDPIE_0_DevTest.DevTest (0.003607s)
+[2019.02.01-12.18.34:208][616]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.18.34:223][616]LogInit: FAudioDevice initialized.
+[2019.02.01-12.18.34:235][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.18.34:282][616]LogLoad: Game class is 'GM_Test_C'
+[2019.02.01-12.18.34:283][616]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevTest.DevTest up for play (max tick rate 0) at 2019.02.01-12.18.34
+[2019.02.01-12.18.34:283][616]LogWorld: Bringing up level for play took: 0.000918
+[2019.02.01-12.18.34:299][616]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevTest 0.658
+[2019.02.01-12.18.34:299][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.34:356][616]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.02.01-12.18.35:929][717]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.35:930][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.18.35:958][717]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.18.35:999][717]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.18.35:999][717]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.36:081][718]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.01-12.18.41:423][ 32]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.01-12.18.41:520][ 33]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Group1
+[2019.02.01-12.18.41:520][ 33]LogTemp: CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.01-12.18.41:520][ 33]LogTemp: Initial Dir: C:\Epic\UE4\UE_4.20
+[2019.02.01-12.18.41:520][ 33]LogTemp: Env CWD: C:\Epic\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.01-12.18.41:520][ 33]LogTemp: BranchPath = A013-32/C/Epic/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = A013-32/C/Epic/UE4/UE_4.20/Engine/Binaries
+[2019.02.01-12.18.41:545][ 34]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\g015582f.STUDENT\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.01-12.18.47:683][751]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.01-12.18.47:685][751]LogSlate: Window 'Project Settings' being destroyed
+[2019.02.01-12.18.48:707][865]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.18.48:726][865]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.48:726][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.18.48:726][865]PIE: New page: PIE session: DevTest (1 Feb 2019 12:18:48)
+[2019.02.01-12.18.48:726][865]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DevTest
+[2019.02.01-12.18.48:729][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002710s)
+[2019.02.01-12.18.48:729][865]LogAIModule: Creating AISystem for world DevTest
+[2019.02.01-12.18.48:729][865]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2019.02.01-12.18.48:729][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DevTest.DevTest to /Game/Levels/UEDPIE_0_DevTest.DevTest (0.003498s)
+[2019.02.01-12.18.48:761][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.18.48:774][865]LogInit: FAudioDevice initialized.
+[2019.02.01-12.18.48:803][865]LogLoad: Game class is 'GM_Test_C'
+[2019.02.01-12.18.48:805][865]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DevTest.DevTest up for play (max tick rate 0) at 2019.02.01-12.18.48
+[2019.02.01-12.18.48:805][865]LogWorld: Bringing up level for play took: 0.000822
+[2019.02.01-12.18.48:821][865]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_DevTest -0.819
+[2019.02.01-12.18.48:821][865]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.50:289][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.50:289][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.18.50:320][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.18.50:320][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/DevTest.DevTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest' with GeneratedClass '/Game/Levels/DevTest.DevTest_C' with ClassGeneratedBy '/Game/Levels/DevTest.DevTest:PersistentLevel.DevTest'
+[2019.02.01-12.18.50:364][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.18.50:392][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.01-12.22.34:739][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.23.10:332][901]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.23.10:682][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.23.10:726][921]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget536426AE45559E4047E08A8CD73310DA.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.23.25:525][547]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.23.25:527][547]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2019.02.01-12.23.25:562][547]Cmd: MAP LOAD FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.01-12.23.25:562][547]LightingResults: New page: Lighting Build
+[2019.02.01-12.23.25:563][547]LoadErrors: New page: Loading map: MainMenu.umap
+[2019.02.01-12.23.25:564][547]MapCheck: New page: Map Check
+[2019.02.01-12.23.25:564][547]LightingResults: New page: Lighting Build
+[2019.02.01-12.23.25:596][547]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.01-12.23.25:644][547]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.01-12.23.25:875][547]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 231.319ms to complete.
+[2019.02.01-12.23.25:877][547]LogFileHelpers: Loading map 'MainMenu' took 0.317
+[2019.02.01-12.23.26:821][645]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.23.26:839][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.23.26:840][645]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:23:26)
+[2019.02.01-12.23.26:840][645]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.23.26:840][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000670s)
+[2019.02.01-12.23.26:841][645]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.23.26:841][645]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.02.01-12.23.26:841][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001395s)
+[2019.02.01-12.23.26:874][645]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.23.26:888][645]LogInit: FAudioDevice initialized.
+[2019.02.01-12.23.26:923][645]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.23.26:924][645]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.23.26
+[2019.02.01-12.23.26:924][645]LogWorld: Bringing up level for play took: 0.000349
+[2019.02.01-12.23.26:939][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.23.26:939][645]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.23.26:940][645]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.695
+[2019.02.01-12.23.27:815][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.23.31:944][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.23.33:111][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.23.33:145][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.23.33:205][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.23.33:218][382]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.01-12.23.33:712][441]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.23.51:570][682]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.23.52:290][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.23.52:327][724]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget7BA926074EEA15FD40B62CABA36F72CF.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.30.46:625][977]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.30.47:100][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.30.47:142][995]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetA6E1989D4DBE12DB9D1DC2ADBC4CB03C.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.30.51:295][373]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.30.51:327][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.30.51:327][373]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:30:51)
+[2019.02.01-12.30.51:327][373]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.30.51:328][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000805s)
+[2019.02.01-12.30.51:328][373]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.30.51:329][373]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2019.02.01-12.30.51:329][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001679s)
+[2019.02.01-12.30.51:366][373]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.30.51:381][373]LogInit: FAudioDevice initialized.
+[2019.02.01-12.30.51:392][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.51:435][373]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.30.51:436][373]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.30.51
+[2019.02.01-12.30.51:436][373]LogWorld: Bringing up level for play took: 0.000392
+[2019.02.01-12.30.51:449][373]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.30.51:450][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.51:450][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.51:454][373]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.181
+[2019.02.01-12.30.52:014][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.52:568][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.30.52:641][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.53:470][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.30.53:485][496]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.30.53:516][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.30.53:575][497]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.01-12.30.58:352][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.30.58:392][832]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget05B1157C4C764EF5050F7FAB91A676BA.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.31.01:715][123]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/C_Character9B739B984255F8332BE22C9D000E1C36.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/Character/C_Character.uasset'
+[2019.02.01-12.31.53:430][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.31.53:471][550]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget10F01E2041B1F973A62DF289CD569E2E.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.31.56:838][817]LogTexture: Display: Building textures: Quit_Back_Glow (BGRA8, 825X205)
+[2019.02.01-12.31.56:838][817]LogTexture: Display: Building textures: Quit_Back (BGRA8, 825X205)
+[2019.02.01-12.32.10:927][763]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.32.11:591][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.32.11:631][806]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget842DB4B748F0CACD9BFE5E9F4C19CFA0.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.32.26:104][491]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Quit.Quit
+[2019.02.01-12.32.33:351][300]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.32.33:704][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.32.33:737][310]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit8CC5E24B4FD2F2D9880ED288333789F6.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.33.07:263][113]LogSlate: Window 'Palette' being destroyed
+[2019.02.01-12.33.18:556][304]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.33.19:010][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.33.19:044][329]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetD9C633904C55CF0A2A8862943DE37DC9.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.33.27:317][257]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Quit.Quit
+[2019.02.01-12.33.28:687][385]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.33.29:182][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.33.29:210][419]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit4E0181444736EB00BC693DAB244CB849.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.34.24:366][409]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.34.24:810][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.34.24:849][432]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget7645D1AE48A35035BFB7B1B2CCD21E88.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.34.33:855][ 86]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.34.34:558][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.34.34:595][128]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetDB151DC847285EB7DEB336808F44209D.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.34.34:760][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.34.34:793][140]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget0803A72C4200488D231DB69ABAE9DB5C.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.34.39:028][455]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.34.39:593][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.34.39:627][490]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget8588F9EF4E63AEE7BF3135B78C27C7FF.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.34.40:223][539]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.34.40:251][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.34.40:251][539]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:34:40)
+[2019.02.01-12.34.40:251][539]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.34.40:252][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000677s)
+[2019.02.01-12.34.40:252][539]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.34.40:252][539]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2019.02.01-12.34.40:252][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001379s)
+[2019.02.01-12.34.40:292][539]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.34.40:306][539]LogInit: FAudioDevice initialized.
+[2019.02.01-12.34.40:316][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.40:368][539]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.34.40:369][539]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.34.40
+[2019.02.01-12.34.40:370][539]LogWorld: Bringing up level for play took: 0.000587
+[2019.02.01-12.34.40:381][539]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.34.40:382][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.40:382][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.40:384][539]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.75
+[2019.02.01-12.34.42:677][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.42:691][711]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.34.42:721][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.34.42:786][713]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.02.01-12.34.43:111][739]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.34.43:133][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.34.43:133][739]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:34:43)
+[2019.02.01-12.34.43:134][739]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.34.43:134][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000660s)
+[2019.02.01-12.34.43:135][739]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.34.43:135][739]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2019.02.01-12.34.43:135][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001392s)
+[2019.02.01-12.34.43:169][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.34.43:182][739]LogInit: FAudioDevice initialized.
+[2019.02.01-12.34.43:192][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.43:239][739]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.34.43:240][739]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.34.43
+[2019.02.01-12.34.43:241][739]LogWorld: Bringing up level for play took: 0.000715
+[2019.02.01-12.34.43:253][739]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.34.43:254][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.43:254][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.43:259][739]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.375
+[2019.02.01-12.34.43:620][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.34.47:085][ 23]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.34.47:194][ 27]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:290).
+[2019.02.01-12.34.48:624][107]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.34.48:659][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.34.48:720][108]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.02.01-12.34.52:347][453]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/OptionsButton.OptionsButton
+[2019.02.01-12.34.59:221][217]BlueprintLog: New page: Compile OptionsButton
+[2019.02.01-12.34.59:585][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/OptionsButton" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset" SILENT=true
+[2019.02.01-12.34.59:622][227]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/OptionsButtonD54D86F54C6D1D67D4EE28AF7F611E2D.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset'
+[2019.02.01-12.35.00:992][389]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.35.01:017][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.35.01:017][389]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:35:01)
+[2019.02.01-12.35.01:017][389]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.35.01:018][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000730s)
+[2019.02.01-12.35.01:019][389]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.35.01:019][389]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2019.02.01-12.35.01:019][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001422s)
+[2019.02.01-12.35.01:053][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.35.01:066][389]LogInit: FAudioDevice initialized.
+[2019.02.01-12.35.01:099][389]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.35.01:099][389]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.35.01
+[2019.02.01-12.35.01:100][389]LogWorld: Bringing up level for play took: 0.000306
+[2019.02.01-12.35.01:113][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.01:113][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.01:114][389]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.52
+[2019.02.01-12.35.01:551][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.02:756][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.02:789][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.35.02:835][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.02:869][578]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.02.01-12.35.03:929][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.35.04:790][772]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.35.04:818][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.35.04:819][772]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:35:04)
+[2019.02.01-12.35.04:819][772]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.35.04:819][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000735s)
+[2019.02.01-12.35.04:820][772]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.35.04:820][772]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2019.02.01-12.35.04:820][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001495s)
+[2019.02.01-12.35.04:856][772]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.35.04:869][772]LogInit: FAudioDevice initialized.
+[2019.02.01-12.35.04:878][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.04:940][772]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.35.04:942][772]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.35.04
+[2019.02.01-12.35.04:942][772]LogWorld: Bringing up level for play took: 0.000756
+[2019.02.01-12.35.04:954][772]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.35.04:955][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.04:955][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.04:963][772]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.671
+[2019.02.01-12.35.05:363][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.06:435][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.35.07:974][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.07:995][955]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.35.08:034][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.35.08:116][956]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.02.01-12.35.15:770][824]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.35.16:534][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.35.16:568][875]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit393F901548DD42E630E26AA0469F2934.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.35.17:023][928]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.35.17:047][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.35.17:048][928]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:35:17)
+[2019.02.01-12.35.17:048][928]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.35.17:048][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000720s)
+[2019.02.01-12.35.17:049][928]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.35.17:049][928]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.02.01-12.35.17:049][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001471s)
+[2019.02.01-12.35.17:079][928]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.35.17:092][928]LogInit: FAudioDevice initialized.
+[2019.02.01-12.35.17:102][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.17:139][928]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.35.17:139][928]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.35.17
+[2019.02.01-12.35.17:140][928]LogWorld: Bringing up level for play took: 0.000326
+[2019.02.01-12.35.17:151][928]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.35.17:152][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.17:152][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.17:154][928]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.479
+[2019.02.01-12.35.17:569][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.19:378][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.35.19:471][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.35.19:484][193]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.35.19:512][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.35.19:597][194]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.02.01-12.36.30:488][508]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.01-12.36.32:498][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.36.32:528][743]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit9833A0E249BDA8DC310E8CB18B22BBB3.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.36.37:951][379]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.01-12.36.39:408][547]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.36.39:978][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.36.40:009][578]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit9313E86C44167D05ECED53A24CF400F2.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.36.40:415][625]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.36.40:440][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.36.40:440][625]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:36:40)
+[2019.02.01-12.36.40:440][625]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.36.40:441][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000730s)
+[2019.02.01-12.36.40:442][625]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.36.40:442][625]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.02.01-12.36.40:442][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001506s)
+[2019.02.01-12.36.40:473][625]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.36.40:487][625]LogInit: FAudioDevice initialized.
+[2019.02.01-12.36.40:496][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.40:535][625]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.36.40:536][625]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.36.40
+[2019.02.01-12.36.40:536][625]LogWorld: Bringing up level for play took: 0.000350
+[2019.02.01-12.36.40:548][625]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.36.40:549][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.40:549][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.40:550][625]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.919
+[2019.02.01-12.36.40:861][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.42:962][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.36.43:066][910]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.36.43:103][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.36.43:229][911]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.02.01-12.36.54:405][221]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.36.54:929][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.36.54:960][250]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/QuitA6035D564EBE697BDB50328D3A24D312.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.36.55:470][305]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.36.55:494][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.36.55:494][305]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:36:55)
+[2019.02.01-12.36.55:494][305]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.36.55:495][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000699s)
+[2019.02.01-12.36.55:495][305]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.36.55:496][305]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2019.02.01-12.36.55:496][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001398s)
+[2019.02.01-12.36.55:529][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.36.55:542][305]LogInit: FAudioDevice initialized.
+[2019.02.01-12.36.55:552][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.55:606][305]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.36.55:607][305]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.36.55
+[2019.02.01-12.36.55:608][305]LogWorld: Bringing up level for play took: 0.000763
+[2019.02.01-12.36.55:620][305]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.36.55:621][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.55:621][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.55:623][305]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.008
+[2019.02.01-12.36.55:828][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.57:189][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.01-12.36.57:306][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.36.57:321][490]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.36.57:352][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.36.57:458][491]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.02.01-12.37.04:811][ 65]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.37.05:375][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.37.05:415][ 94]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidget9D8E5B23466A7D189E80FD874E9AF649.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.37.05:957][133]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.37.05:982][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.37.05:982][133]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:37:05)
+[2019.02.01-12.37.05:982][133]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.37.05:983][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000677s)
+[2019.02.01-12.37.05:984][133]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.37.05:984][133]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2019.02.01-12.37.05:984][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001418s)
+[2019.02.01-12.37.06:017][133]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.37.06:030][133]LogInit: FAudioDevice initialized.
+[2019.02.01-12.37.06:040][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.06:084][133]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.37.06:085][133]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.37.06
+[2019.02.01-12.37.06:085][133]LogWorld: Bringing up level for play took: 0.000323
+[2019.02.01-12.37.06:097][133]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.37.06:098][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.06:098][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.06:100][133]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.468
+[2019.02.01-12.37.06:364][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.07:041][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.07:057][193]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.37.07:089][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.37.07:148][194]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.02.01-12.37.21:039][666]BlueprintLog: New page: Compile OptionsButton
+[2019.02.01-12.37.21:718][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/OptionsButton" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset" SILENT=true
+[2019.02.01-12.37.21:750][706]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/OptionsButton3333D75A41AF33C159B2D58E2D7E7B21.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset'
+[2019.02.01-12.37.22:129][750]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.37.22:154][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.37.22:154][750]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:37:22)
+[2019.02.01-12.37.22:154][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.37.22:155][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000684s)
+[2019.02.01-12.37.22:155][750]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.37.22:155][750]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2019.02.01-12.37.22:155][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001389s)
+[2019.02.01-12.37.22:188][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.37.22:202][750]LogInit: FAudioDevice initialized.
+[2019.02.01-12.37.22:211][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.22:251][750]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.37.22:253][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.37.22
+[2019.02.01-12.37.22:253][750]LogWorld: Bringing up level for play took: 0.000322
+[2019.02.01-12.37.22:265][750]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.37.22:266][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.22:266][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.22:268][750]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.637
+[2019.02.01-12.37.22:553][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.23:549][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.37.23:562][887]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.37.23:590][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.37.23:678][889]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.02.01-12.37.28:519][445]BlueprintLog: New page: Compile OptionsButton
+[2019.02.01-12.37.29:136][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/OptionsButton" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset" SILENT=true
+[2019.02.01-12.37.29:164][473]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/OptionsButton4D3E6F71456D6140F4470FAF63C25CA1.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/OptionsButton.uasset'
+[2019.02.01-12.38.04:039][520]BlueprintLog: New page: Compile Quit
+[2019.02.01-12.38.04:380][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Quit" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset" SILENT=true
+[2019.02.01-12.38.04:415][520]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/Quit5FC024FE4EA18510E8ABCEBE8E1A4E59.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/Quit.uasset'
+[2019.02.01-12.38.04:834][555]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.38.04:861][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.38.04:861][555]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:38:04)
+[2019.02.01-12.38.04:861][555]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.38.04:862][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000741s)
+[2019.02.01-12.38.04:862][555]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.38.04:862][555]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2019.02.01-12.38.04:862][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001496s)
+[2019.02.01-12.38.04:897][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.38.04:910][555]LogInit: FAudioDevice initialized.
+[2019.02.01-12.38.04:920][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.04:962][555]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.38.04:963][555]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.38.04
+[2019.02.01-12.38.04:963][555]LogWorld: Bringing up level for play took: 0.000365
+[2019.02.01-12.38.04:975][555]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.38.04:976][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.04:976][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.04:977][555]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.652
+[2019.02.01-12.38.05:521][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.06:272][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.06:285][688]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.38.06:313][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.38.06:395][690]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.02.01-12.38.15:724][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.38.15:760][370]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetD1AAFC2D48B627CAF243F39E30668604.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.38.16:255][401]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.38.16:282][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.38.16:282][401]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:38:16)
+[2019.02.01-12.38.16:282][401]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.38.16:283][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000732s)
+[2019.02.01-12.38.16:283][401]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.38.16:284][401]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2019.02.01-12.38.16:284][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001485s)
+[2019.02.01-12.38.16:323][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.38.16:337][401]LogInit: FAudioDevice initialized.
+[2019.02.01-12.38.16:347][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.16:384][401]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.38.16:385][401]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.38.16
+[2019.02.01-12.38.16:386][401]LogWorld: Bringing up level for play took: 0.000417
+[2019.02.01-12.38.16:397][401]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.38.16:398][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.16:398][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.16:400][401]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.771
+[2019.02.01-12.38.16:659][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.17:470][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.17:491][463]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.38.17:526][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.38.17:595][464]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.02.01-12.38.22:377][760]BlueprintLog: New page: Compile MainMenuWidget
+[2019.02.01-12.38.22:815][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenuWidget" FILE="../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset" SILENT=true
+[2019.02.01-12.38.22:853][779]LogSavePackage: Moving '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Saved/MainMenuWidgetCAF138614F7AD68CE6F2C88BD89E6C39.tmp' to '../../../../../../Users/g015582f.STUDENT/Documents/CloneGroup1/Group1/Content/Blueprints/UI/MainMenuWidget.uasset'
+[2019.02.01-12.38.23:215][804]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.01-12.38.23:240][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.01-12.38.23:241][804]PIE: New page: PIE session: MainMenu (1 Feb 2019 12:38:23)
+[2019.02.01-12.38.23:241][804]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2019.02.01-12.38.23:241][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000660s)
+[2019.02.01-12.38.23:242][804]LogAIModule: Creating AISystem for world MainMenu
+[2019.02.01-12.38.23:242][804]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2019.02.01-12.38.23:242][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001389s)
+[2019.02.01-12.38.23:284][804]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.01-12.38.23:297][804]LogInit: FAudioDevice initialized.
+[2019.02.01-12.38.23:307][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.23:349][804]LogLoad: Game class is 'GM_MainMenu_C'
+[2019.02.01-12.38.23:350][804]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2019.02.01-12.38.23
+[2019.02.01-12.38.23:350][804]LogWorld: Bringing up level for play took: 0.000343
+[2019.02.01-12.38.23:362][804]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.02.01-12.38.23:363][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.23:363][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.23:365][804]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.264
+[2019.02.01-12.38.23:607][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.24:350][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.01-12.38.24:370][867]LogSlate: Window 'Group1 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.02.01-12.38.24:405][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.01-12.38.24:484][868]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.02.01-12.38.35:583][568]LogEditorTransaction: Undo Resize Widget
+[2019.02.01-12.38.35:996][590]LogEditorTransaction: Undo Move Anchor
+[2019.02.01-12.38.36:679][635]LogEditorTransaction: Undo Edit Vertical Alignment
+[2019.02.01-12.38.37:082][663]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2019.02.01-12.38.37:479][685]LogEditorTransaction: Undo Edit Size
+[2019.02.01-12.38.37:884][716]LogEditorTransaction: Undo Edit Size
+[2019.02.01-12.38.38:399][755]LogEditorTransaction: Undo Resize Widget
+[2019.02.01-12.38.39:686][755]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.281 s
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: === Handled ensure: ===
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: 
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: Ensure condition failed: WidgetTree [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\UserWidget.cpp] [Line: 1287]
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: 
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: Stack: 
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb8e1371f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb8de70c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb8de8b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7e756948 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7e7568c4 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.01-12.38.39:686][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7e6d7117 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7e7569c8 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7cb739f7 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7cb49ab2 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7cb0ee5b UE4Editor-UMGEditor.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7fbafce9 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb8b10d8d3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb82bb49b5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7fd1e4cd UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb827e4dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb828101fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb827f6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb82862dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb828a9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb8283c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb7fbb05b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83e524df UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83e9437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83093a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83081a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83e170ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83e9606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb83e89846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb9e93ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb9e930270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb9e93f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb9e92c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffbdcf86d41 USER32.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffbdcf86713 USER32.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffb9e940646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ff62fb654e5 UE4Editor.exe!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ff62fb75b3c UE4Editor.exe!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ff62fb75bba UE4Editor.exe!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ff62fb83dac UE4Editor.exe!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ff62fb85aaa UE4Editor.exe!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffbdb933034 KERNEL32.DLL!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: [Callstack] 0x00007ffbdd3d3691 ntdll.dll!UnknownFunction []
+[2019.02.01-12.38.39:687][755]LogOutputDevice: Error: 
+[2019.02.01-12.38.39:693][755]LogStats:                SubmitErrorReport -  0.000 s
